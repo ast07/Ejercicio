@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        Circulo circulo = new Circulo(5.0);
+        System.out.println("Radio del círculo: " + circulo.getRadio());
+        System.out.println("Área del circulo: " + circulo.getArea());
+
+        Cilindro cilindro = new Cilindro(3.0, 7.0);
+        System.out.println("Radio del cilindro: " + cilindro.getRadio());
+        System.out.println("Altura del cilindro: " + cilindro.getAltura());
+        System.out.println("Área del cilindro: " + cilindro.getArea());
+        System.out.println("Volumen del cilindro: " + cilindro.getVolumen());
+    }
+}
